@@ -3,7 +3,7 @@
 
 Name:           felix-bundlerepository
 Version:        1.6.6
-Release:        14%{?dist}
+Release:        15%{?dist}
 Summary:        Bundle repository service
 License:        ASL 2.0 and MIT
 URL:            http://felix.apache.org/site/apache-felix-osgi-bundle-repository.html
@@ -81,6 +81,9 @@ This package contains the API documentation for %{name}.
 %doc LICENSE LICENSE.kxml2 NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.6.6-15
+- Mass rebuild 2013-12-27
+
 * Wed Jul 17 2013 Michal Srb <msrb@redhat.com> - 1.6.6-14
 - Fix license tag. kxml is licensed under MIT, not BSD
 
